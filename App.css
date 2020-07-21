@@ -1,0 +1,390 @@
+body {
+  background-color: #a69b32;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*Customize CSS*/
+path.recharts-sector {
+  stroke: none;
+}
+
+ul.recharts-default-legend {
+  display: flex;
+  flex-direction: column;
+  text-align: start!important;
+}
+
+.column_widget_1 {
+  margin-top: 20px;
+  margin-left: 1%;
+  border: 1px solid #3F338A;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column_widget_3 {
+  height: 480px;
+  margin-top: 20px;
+  margin-left: 1%;
+  border: 1px solid #3F338A;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column_widget_4 {
+  margin-top: 20px;
+  height:370px;
+  margin-left: 1%;
+  border: 1px solid #3F338A;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column_widget_5 {
+  margin-top: 20px;
+  margin-left: 1%;
+  border: 1px solid #3F338A;
+  padding-right: 0px;
+  padding-left: 0px;
+  height:265px;
+}
+
+.column_widget_2 {
+  margin-top: 20px;
+  margin-left: 1%;
+  border: 1px solid #3F338A;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 620px;
+}
+
+.app_column {
+
+}
+
+h5 {
+  border-bottom: 1px solid #3F338A;
+  margin-bottom: 0px!important;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px!important;
+}
+
+.recharts-responsive-container {
+  padding-top: 15px;
+}
+
+.graphics_class {
+  display:flex;
+  flex-basis:97%;
+  margin-bottom: 50px;
+}
+
+span.MuiButton-label {
+  text-transform: initial;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.headerRow {
+  border-bottom: 1px solid #3F338A;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButtonGroup-grouped.MuiButtonGroup-groupedHorizontal.MuiButtonGroup-groupedOutlined.MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlined {
+  border: 1px solid #3F338A!important;
+}
+
+.headerRow_row_3 {
+  flex-basis:55%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #3F338A!important;
+  display: flex;
+  justify-content: center;
+}
+
+.headerRow_row_2 {
+  flex-basis:10%;
+  border: 1px solid #3F338A!important;
+  padding-right: 0px;
+  padding-left: 0px;
+  display:flex;
+}
+
+.headerRow_row_4 {
+  flex-basis:25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+}
+
+.headerRow_row_1 {
+  flex-basis:5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #3F338A!important;
+}
+
+img.cism-logo {
+  width: 40px;
+  height: 40px;
+}
+
+img.cism-icon_first {
+  width: 20px;
+  height: 18.5px;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+img.cism-icon_second {
+  background-color: white;
+  width: 20px;
+  height: 19.5px;
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.first_icon_div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border:1px solid #615A8B;
+}
+
+.second_icon_div {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.ant-select.ant-select-multiple.ant-select-show-search {
+  height: 100%;
+}
+
+.ant-select-selector {
+  background: none!important;
+  height: 100%;
+  color: #FFFFFF;
+  border: none!important;
+}
+
+.ant-statistic-title {
+  text-align: start;
+  margin-bottom:0px!important;
+}
+
+.ant-statistic-content {
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.recharts-legend-wrapper {
+  width: 85%!important;
+  left: 7.5%!important;
+}
+
+body {
+  margin-bottom:50px;
+}
+
+.recharts-legend-item svg.recharts-surface {
+  border-radius: 10px;
+}
+
+.all_charts {
+  display:flex;
+}
+
+.left_icons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  flex-basis:3%
+}
+
+.app_column.app_column_1.col {
+  flex-basis: 27%;
+}
+
+.app_column.app_column_2.col {
+  flex-basis: 27%;
+}
+
+.app_column.app_column_3.col {
+  flex-basis: 27%;
+}
+
+.app_column.app_column_4.col {
+  flex-basis: 19%;
+}
+
+li.recharts-legend-item {
+  border-bottom: 1px solid #3F338A;
+  padding-bottom: 6px;
+  margin-top: 6px;
+}
+
+.column_widget_2 .recharts-wrapper {
+  height: 520px!important;
+}
+
+.app_column_2 .recharts-wrapper {
+  height: 400px!important;
+}
+
+.app_column_4 .recharts-wrapper {
+  height: 290px!important;
+}
+
+.column_widget_5 .recharts-responsive-container {
+  margin-left: 30px;
+}
+
+button.MuiButton-contained {
+  background-color: white!important;
+}
+
+.MuiButton-contained .MuiButton-label {
+  color: #1D1359!important;
+}
+
+img.search_icon {
+  height: 20px!important;
+  margin-top: 25px!important;
+}
+
+.div_search_icon {
+  flex-basis: 10%;
+}
+
+.ant-select-selection-placeholder::after {
+  background-image: url("/public/images/second_icon.png");
+  width: 40px!important;
+  z-index:1000!important;
+  content:''!important;
+  margin:0!important;
+  line-height:0!important;
+  display:block!important;
+}
+
+.headerRow_row_3 .MuiButtonGroup-root {
+  width: 60%;
+}
+
+.headerRow_row_4 .MuiButtonGroup-root {
+  width: 80%;
+}
+
+.headerRow_row_3 button.MuiButtonBase-root:nth-child(1) {
+  flex-basis: 28%;
+}
+
+.headerRow_row_3 button.MuiButtonBase-root:nth-child(2) {
+  flex-basis: 14%;
+}
+
+.headerRow_row_3 button.MuiButtonBase-root:nth-child(3) {
+  flex-basis: 14%;
+}
+
+.headerRow_row_3 button.MuiButtonBase-root:nth-child(4) {
+  flex-basis: 20%;
+}
+
+.headerRow_row_3 button.MuiButtonBase-root:nth-child(5) {
+  flex-basis: 24%;
+}
+
+.headerRow_row_3 button.MuiButtonBase-root.MuiButton-root {
+  padding-left:5px!important;
+  padding-right:5px!important;
+}
+
+.InputFromTo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+.DayPickerInput input {
+  width: 100px;
+}
+.InputFromTo:nth-child(1) {
+  display:none;
+}
+
+.headerRow_row_4 .MuiButtonGroup-root {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerRow_row_4 button.MuiButtonBase-root:nth-child(1) {
+  flex-basis: 22%;
+}
+
+.headerRow_row_4 button.MuiButtonBase-root:nth-child(2) {
+  flex-basis: 35%;
+}
+
+.headerRow_row_4 button.MuiButtonBase-root:nth-child(3) {
+  flex-basis: 30%;
+}
+
+.headerRow_row_4 button.MuiButtonBase-root:nth-child(4) {
+  flex-basis: 20%;
+}
+
+.InputFromTo .DayPickerInput-Overlay {
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: linear-gradient(45deg, #7b2eff, #4900c7);
+}

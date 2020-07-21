@@ -1,0 +1,15 @@
+body {
+  background-color: #1d1359 !important;
+  font-family:Clear Sans!important;
+}
+h5, .ant-statistic *, .recharts-legend-item-text, .MuiButtonGroup-root * {
+	color: white !important;
+}
+.recharts-cartesian-axis-tick-value * {
+	fill: white !important;
+}
+
+@font-face {
+    font-family: Clear Sans;
+    src: url(fonts/clear-sans.regular.ttf);
+   }
